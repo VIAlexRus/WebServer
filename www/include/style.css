@@ -1,0 +1,47 @@
+header {
+    margin-bottom: 40px;
+    background: #eeeeee;
+    min-height: 40px;
+}
+
+.errors {
+    color: red;
+    font-size: 14px;
+}
+
+.add-ok {
+    color: green;
+    font-size: 14px;
+}
+
+.form_task {
+    margin-bottom: 40px;
+    background: #eeeeee;
+}
+
+.task-list {
+    background: #eeeeee;
+}
+
+.task-item {
+    position: relative;
+}
+.task-item .edit-text{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    opacity: .4;
+    transition: 0.2s;
+}
+
+.task-item .edit-text:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+
+.task-item .edit-admin {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    cursor: default;
+}

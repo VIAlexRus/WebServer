@@ -1,0 +1,13 @@
+{
+    "name": "vialex/www",
+    "description": "My site",
+    "require": {
+        "twbs/bootstrap": "4.5.0",
+        "components/jquery": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebServer\\Classes\\": "classes/"
+        }
+    }
+}
